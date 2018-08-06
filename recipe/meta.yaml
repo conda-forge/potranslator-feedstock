@@ -14,7 +14,7 @@ source:
   '{{ hash_type }}': '{{ hash_value }}'
 
 build:
-  noarch_python: True
+  noarch: python
   number: 0
   entry_points:
     - potranslator=potranslator.commands:main
